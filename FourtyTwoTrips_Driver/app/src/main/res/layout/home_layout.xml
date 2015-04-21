@@ -1,0 +1,209 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/profileName"
+                android:textSize="23dp"
+                style="@style/ShadowText"
+                android:textColor="@color/text"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:text="welcome "/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp">
+
+                <FrameLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    -->
+
+                    <Button
+                        android:id="@+id/startTrip"
+                        android:layout_width="185dp"
+                        android:layout_height="38dp"
+                        android:visibility="gone"
+                        android:background="@drawable/custom_button"
+                        android:text="Start New Trip"
+                        android:textAllCaps="false"
+                        android:textColor="@color/text"
+                        android:textSize="18dp"/>
+
+                    <ProgressBar
+                        android:id="@+id/startTripLoadingIndicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:visibility="gone"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="8dp"
+                        style="@android:style/Widget.ProgressBar.Small"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/endTrip"
+                        android:layout_width="195dp"
+                        android:layout_height="38dp"
+                        android:visibility="gone"
+                        android:background="@drawable/custom_button"
+                        android:text="End Current Trip"
+                        android:textAllCaps="false"
+                        android:textColor="@color/text"
+                        android:textSize="18dp"/>
+
+                    <ProgressBar
+                        android:id="@+id/endTripLoadingIndicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:visibility="gone"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="8dp"
+                        style="@android:style/Widget.ProgressBar.Small"/>
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/showTripStartPoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:text="TRIP Started @ "
+                    android:textSize="9dp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:id="@+id/tripStartPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:inputType="textFilter"
+                    android:singleLine="true"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:textSize="14dp"
+                    android:text="Fetching Place Name..."
+                    android:background="#00000000"
+                    android:textColor="#0000ff"/>
+
+
+            </LinearLayout>
+
+            <FrameLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/root_view">
+
+                <fragment
+                    android:id="@+id/map"
+                    android:layout_marginTop="5dp"
+                    android:name="crypsis.net.fourtytwotrips_driver.CustomMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_border"
+                    android:clickable="true"
+                    android:id="@+id/showCurrentLocation"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="16dp"
+                        android:text="CURRENT LOCATION"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="14dp"
+                        android:textColor="#0000ff"/><TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="normal"
+                        android:text="Fetching Place Name.."
+                        android:singleLine="true"
+                        android:textSize="15dp"
+                        android:id="@+id/currentPlaceName"
+                        android:textColor="#000000"
+
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:ellipsize="marquee"
+                        android:scrollHorizontally="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="normal"
+                        android:text="(Lat: , Lng: )"
+                        android:singleLine="true"
+                        android:textSize="11dp"
+                        android:id="@+id/currentPlaceLatLng"/>
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/drawerList"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:background="#d3d3d3"
+        android:layout_gravity="left"/>
+
+</android.support.v4.widget.DrawerLayout>

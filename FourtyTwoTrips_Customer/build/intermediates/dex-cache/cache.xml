@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Customer/app/build/intermediates/exploded-aar/FourtyTwoTrips_Customer/facebookSDK/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f81ce3963f6e6efa1cfc8c8cd9d8da16cd689607">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Customer/app/build/intermediates/pre-dexed/debug/classes-a79852aff4b60fd5a315181779f5af40cf3e7248.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Customer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Customer/app/build/intermediates/pre-dexed/debug/classes-688ac76388c2ca9264679618c37a6b015aee7a3b.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Customer/app/src/main/java/pgsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="580331cffd60e7d7c1073be8b50863f346949647">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Customer/app/build/intermediates/pre-dexed/debug/pgsdk-38ec7ef58a9137eff5a47b4359811a3a8f99870f.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Customer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Customer/app/build/intermediates/pre-dexed/debug/classes-0ff8badc9247415a16b3637b17a4b235afb2a6c1.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Customer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Customer/app/build/intermediates/pre-dexed/debug/classes-f9b8d5af7d26b12df68d270f821e479775a8af1b.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Customer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Customer/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-8afb83e81fe39c868e7f4f2e883d90da27f690df.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Customer/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-44a760c749a6cb7df24018fbd68a07698417b122.jar" />
+    </item>
+
+</items>

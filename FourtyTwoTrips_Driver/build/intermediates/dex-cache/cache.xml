@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/pre-dexed/debug/classes-da2c213ef204062e405e40160775fe94f6bfd16f.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/exploded-aar/FourtyTwoTrips_Driver/webSocketRailsAndroid/unspecified/libs/jackson-core-2.3.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="801fecfb8baf0ba5296e2d2ea0664f72b0761b9a">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/pre-dexed/debug/jackson-core-2.3.4-c1ff9c10d05bd6f404bfbe41895651867ba0ad44.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-b73cf66fe769973bc2390af8be5cf56099050828.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/exploded-aar/FourtyTwoTrips_Driver/webSocketRailsAndroid/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e52937917511bf660f9a5614af07bbb9d77a2b92">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/pre-dexed/debug/classes-5cdb89b253f06d3a2a1fa3de3bf1841a0a934509.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/exploded-aar/FourtyTwoTrips_Driver/webSocketRailsAndroid/unspecified/libs/jackson-annotations-2.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f5e853a20b60758922453d56f9ae1e64af5cb3da">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.3.0-62a87705685c96c4c0978b9e76c245cdaade1085.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/pre-dexed/debug/classes-03fbc3cc52750ffa96bebf4887d19f5064de2228.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/pre-dexed/debug/classes-6f9e45a3dce44468527500ed7b150c29f1fdd027.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/exploded-aar/FourtyTwoTrips_Driver/webSocketRailsAndroid/unspecified/libs/androidasync-1.3.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="42d0cb938a7a2843f1d4ba7ef5840d38ba17e595">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/pre-dexed/debug/androidasync-1.3.7-c177edea8c365feefa32132f821fd34e0f64a267.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/exploded-aar/FourtyTwoTrips_Driver/webSocketRailsAndroid/unspecified/libs/jackson-databind-2.3.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c9478f1871de4c9cf723e5d497a14c7ad274a50b">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/pre-dexed/debug/jackson-databind-2.3.4-48eff623e02ff7298f4b3eef9bd8cec6b3928559.jar" />
+    </item>
+    <item
+        jar="/home/venkatesh/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/venkatesh/FourtyTwoTrips_Driver/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-44a760c749a6cb7df24018fbd68a07698417b122.jar" />
+    </item>
+
+</items>

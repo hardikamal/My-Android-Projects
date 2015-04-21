@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textSize="26dp"
+        android:textColor="#ffffff"
+        android:text="42Trips LogIn"/>
+
+
+     <com.facebook.widget.LoginButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fbLogin"
+        style="@style/com_facebook_loginview_default_style"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+     <!--
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background_states"
+        android:text="Login with Facebook"
+        android:textAllCaps="false"
+        android:textColor="@color/text"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:id="@+id/loginWithFacebook" />
+        -->
+
+    <TextView
+        android:id="@+id/connectionStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="12dp"
+        android:textColor="#00FF00"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:text="Establishing Connection, plz wait.."/>
+
+
+
+
+    <!-- xmlns:facebook="http://schemas.android.com/apk/res-auto" -->
+
+
+
+</LinearLayout>

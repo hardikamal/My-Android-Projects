@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">42Trips Driver</string>
+    <string name="title_activity_login">42Trips Driver</string>
+    <string name="title_activity_home">42Trips Driver</string>
+
+    <string name="title_activity_show_path">42Trips Driver</string>
+
+    <!-- Navigation Drawer -->
+
+    <string name="drawer_open">Navigation Drawer Opened</string>
+    <string name="drawer_close">Navigation Drawer Closed</string>
+
+    <string-array name="drawerListItems">
+        <item>My Profile</item>
+        <item>My Trips</item>
+        <item>Find Route</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string name="api_address">http://api-dev.42trips.com/api/v1/drivers/auth</string>
+    <string name="socket_address">http://api-dev.42trips.com:443/websocket</string>
+    <string name="setLocationEvent">api.v1.drivers.set_location</string>
+    <string name="startTripEvent">api.v1.drivers.start_trip</string>
+    <string name="endTripEvent">api.v1.drivers.end_trip</string>
+    <string name="DISPATCHER_RECEIVER_NAME">DispatcherActivity.Receiver</string>
+    <string name="LOGIN_RECEIVER_NAME">LoginActivity.Receiver</string>
+    <string name="HOME_RECEIVER_NAME">HomeActivity.Receiver</string>
+    <string name="LOCATION_UPDATER_RECEIVER_NAME">LocationUpdater.Receiver</string>
+
+
+
+
+</resources>
